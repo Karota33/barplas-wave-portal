@@ -6,10 +6,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Label } from "@/components/ui/label";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
-import { 
-  Eye, 
-  EyeOff 
-} from "lucide-react";
+// Lucide React icons - correctos
+import { Eye, EyeOff } from "lucide-react";
 
 interface LoginFormProps {
   onLogin: (comercial: any) => void;
