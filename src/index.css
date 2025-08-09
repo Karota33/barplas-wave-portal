@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Professional Business Color Palette */
+    /* BARPLAS Corporate Color Palette */
     --background: 0 0% 100%;
     --foreground: 215 25% 15%;
 
@@ -18,23 +18,24 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    /* Deep Blue Primary - Professional & Trustworthy */
-    --primary: 215 85% 15%;
+    /* BARPLAS Azul Primary #1863DC */
+    --primary: 218 76% 48%;
     --primary-foreground: 0 0% 98%;
-    --primary-light: 215 75% 25%;
-    --primary-glow: 215 85% 35%;
+    --primary-light: 218 66% 58%;
+    --primary-glow: 218 86% 65%;
 
-    /* Sophisticated Secondary */
-    --secondary: 215 15% 95%;
-    --secondary-foreground: 215 25% 15%;
+    /* BARPLAS Verde Secondary #009E40 */
+    --secondary: 149 100% 31%;
+    --secondary-foreground: 0 0% 98%;
+    --secondary-light: 149 90% 41%;
 
     --muted: 215 15% 96%;
     --muted-foreground: 215 10% 55%;
 
-    /* Professional Accent - Warm Orange */
-    --accent: 25 85% 60%;
+    /* Professional Accent - Verde BARPLAS */
+    --accent: 149 100% 31%;
     --accent-foreground: 0 0% 98%;
-    --accent-light: 25 75% 70%;
+    --accent-light: 149 90% 41%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
@@ -43,10 +44,10 @@ All colors MUST be HSL.
     --input: 215 15% 94%;
     --ring: 215 85% 15%;
 
-    /* Business Gradients */
+    /* BARPLAS Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-light)) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(var(--accent-light)) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--secondary)) 0%, hsl(var(--secondary-light)) 100%);
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(var(--muted)) 100%);
 
     /* Professional Shadows */

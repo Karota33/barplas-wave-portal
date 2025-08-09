@@ -37,7 +37,9 @@ export const Navigation = () => {
             <div className="w-10 h-10 bg-gradient-primary rounded-xl flex items-center justify-center">
               <Building2 className="w-6 h-6 text-primary-foreground" />
             </div>
-            <span className="text-2xl font-bold text-foreground">Barplas</span>
+            <span className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+              BARPLAS
+            </span>
           </div>
 
           {/* Desktop Navigation */}
@@ -56,7 +58,9 @@ export const Navigation = () => {
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost">Iniciar Sesión</Button>
-            <Button variant="professional">Comenzar</Button>
+            <Button asChild variant="professional">
+              <a href="/portal">Portal Empresarial</a>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -91,8 +95,8 @@ export const Navigation = () => {
                 <Button variant="ghost" className="w-full justify-start">
                   Iniciar Sesión
                 </Button>
-                <Button variant="professional" className="w-full">
-                  Comenzar
+                <Button asChild variant="professional" className="w-full">
+                  <a href="/portal">Portal Empresarial</a>
                 </Button>
               </div>
             </div>
