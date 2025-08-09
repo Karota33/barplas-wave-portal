@@ -15,39 +15,39 @@ import {
 const services = [
   {
     icon: BarChart3,
-    title: "Business Analytics",
-    description: "Comprehensive reporting and analytics to drive data-driven decisions for your business growth.",
-    features: ["Real-time dashboards", "Custom reports", "Predictive analytics"]
+    title: "Análisis Empresarial",
+    description: "Reportes integrales y análisis para impulsar decisiones basadas en datos para el crecimiento de tu negocio.",
+    features: ["Dashboards en tiempo real", "Reportes personalizados", "Análisis predictivo"]
   },
   {
     icon: FileText,
-    title: "Document Management",
-    description: "Streamlined document workflows with secure storage, version control, and collaboration tools.",
-    features: ["Version control", "Digital signatures", "Automated workflows"]
+    title: "Gestión de Documentos",
+    description: "Flujos de trabajo de documentos optimizados con almacenamiento seguro, control de versiones y herramientas de colaboración.",
+    features: ["Control de versiones", "Firmas digitales", "Flujos automatizados"]
   },
   {
     icon: Users,
-    title: "Team Collaboration",
-    description: "Enhanced team productivity with integrated communication and project management tools.",
-    features: ["Team messaging", "Project tracking", "Resource planning"]
+    title: "Colaboración en Equipo",
+    description: "Mayor productividad del equipo con comunicación integrada y herramientas de gestión de proyectos.",
+    features: ["Mensajería de equipo", "Seguimiento de proyectos", "Planificación de recursos"]
   },
   {
     icon: Shield,
-    title: "Security & Compliance",
-    description: "Enterprise-grade security measures ensuring your business data remains protected and compliant.",
-    features: ["Data encryption", "Audit trails", "Compliance reporting"]
+    title: "Seguridad y Cumplimiento",
+    description: "Medidas de seguridad de nivel empresarial que garantizan que tus datos comerciales permanezcan protegidos y conformes.",
+    features: ["Encriptación de datos", "Pistas de auditoría", "Reportes de cumplimiento"]
   },
   {
     icon: Database,
-    title: "Data Integration",
-    description: "Seamless integration with existing systems and third-party applications for unified operations.",
-    features: ["API connectivity", "Data synchronization", "Legacy system support"]
+    title: "Integración de Datos",
+    description: "Integración perfecta con sistemas existentes y aplicaciones de terceros para operaciones unificadas.",
+    features: ["Conectividad API", "Sincronización de datos", "Soporte de sistemas legacy"]
   },
   {
     icon: Globe,
-    title: "Global Access",
-    description: "Access your business portal from anywhere with our cloud-based infrastructure and mobile support.",
-    features: ["Cloud hosting", "Mobile apps", "Offline capabilities"]
+    title: "Acceso Global",
+    description: "Accede a tu portal empresarial desde cualquier lugar con nuestra infraestructura basada en la nube y soporte móvil.",
+    features: ["Alojamiento en la nube", "Apps móviles", "Capacidades offline"]
   }
 ];
 
@@ -58,17 +58,18 @@ export const Services = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-full px-4 py-2 text-sm text-accent mb-6">
             <TrendingUp className="w-4 h-4" />
-            Our Solutions
+            Nuestras Soluciones
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Comprehensive Business{" "}
+            Soluciones{" "}
             <span className="bg-gradient-accent bg-clip-text text-transparent">
-              Solutions
-            </span>
+              Empresariales
+            </span>{" "}
+            Integrales
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Discover our suite of integrated business tools designed to streamline 
-            operations and accelerate your company's growth.
+            Descubre nuestra suite de herramientas empresariales integradas diseñadas para 
+            optimizar operaciones y acelerar el crecimiento de tu empresa.
           </p>
         </div>
 
@@ -101,7 +102,7 @@ export const Services = () => {
                     ))}
                   </ul>
                   <Button variant="professional" className="w-full">
-                    Learn More
+                    Saber Más
                   </Button>
                 </CardContent>
               </Card>

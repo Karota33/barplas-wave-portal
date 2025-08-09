@@ -3,10 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Award, Clock, Target, Users2, ArrowRight } from "lucide-react";
 
 const stats = [
-  { icon: Users2, value: "500+", label: "Active Clients" },
-  { icon: Clock, value: "99.9%", label: "Uptime" },
-  { icon: Target, value: "15+", label: "Years Experience" },
-  { icon: Award, value: "50+", label: "Industry Awards" }
+  { icon: Users2, value: "500+", label: "Clientes Activos" },
+  { icon: Clock, value: "99.9%", label: "Tiempo Activo" },
+  { icon: Target, value: "15+", label: "Años de Experiencia" },
+  { icon: Award, value: "50+", label: "Premios de la Industria" }
 ];
 
 export const About = () => {
@@ -18,36 +18,36 @@ export const About = () => {
           <div>
             <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 text-sm text-primary mb-6">
               <Target className="w-4 h-4" />
-              About Barplas
+              Acerca de Barplas
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
-              Empowering Businesses with{" "}
+              Empoderando Empresas con{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Innovation
+                Innovación
               </span>
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              For over 15 years, Barplas has been at the forefront of business technology solutions, 
-              helping companies transform their operations through innovative portal solutions and 
-              integrated business platforms.
+              Durante más de 15 años, Barplas ha estado a la vanguardia de las soluciones tecnológicas empresariales, 
+              ayudando a las empresas a transformar sus operaciones a través de soluciones de portal innovadoras y 
+              plataformas empresariales integradas.
             </p>
             
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Our comprehensive portal solutions are designed to streamline workflows, enhance 
-              collaboration, and provide the insights needed to make informed business decisions. 
-              We pride ourselves on delivering reliable, secure, and scalable solutions that grow 
-              with your business.
+              Nuestras soluciones de portal integrales están diseñadas para optimizar flujos de trabajo, mejorar 
+              la colaboración y proporcionar las insights necesarias para tomar decisiones empresariales informadas. 
+              Nos enorgullecemos de ofrecer soluciones confiables, seguras y escalables que crecen 
+              con tu negocio.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button variant="professional" size="lg">
-                Learn More About Us
+                Conoce Más Sobre Nosotros
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
               <Button variant="outline" size="lg">
-                View Case Studies
+                Ver Casos de Estudio
               </Button>
             </div>
 
@@ -74,28 +74,28 @@ export const About = () => {
               <Card className="bg-gradient-primary text-primary-foreground shadow-elegant hover:shadow-glow transition-smooth">
                 <CardContent className="p-8 text-center">
                   <div className="text-3xl font-bold mb-2">15+</div>
-                  <div className="text-primary-foreground/80">Years of Excellence</div>
+                  <div className="text-primary-foreground/80">Años de Excelencia</div>
                 </CardContent>
               </Card>
               
               <Card className="bg-gradient-accent text-accent-foreground shadow-elegant hover:shadow-glow transition-smooth mt-8">
                 <CardContent className="p-8 text-center">
                   <div className="text-3xl font-bold mb-2">24/7</div>
-                  <div className="text-accent-foreground/80">Support Available</div>
+                  <div className="text-accent-foreground/80">Soporte Disponible</div>
                 </CardContent>
               </Card>
               
               <Card className="bg-card border-border shadow-card hover:shadow-elegant transition-smooth -mt-8">
                 <CardContent className="p-8 text-center">
                   <div className="text-3xl font-bold text-foreground mb-2">ISO</div>
-                  <div className="text-muted-foreground">Certified Quality</div>
+                  <div className="text-muted-foreground">Calidad Certificada</div>
                 </CardContent>
               </Card>
               
               <Card className="bg-muted shadow-card hover:shadow-elegant transition-smooth">
                 <CardContent className="p-8 text-center">
                   <div className="text-3xl font-bold text-foreground mb-2">100%</div>
-                  <div className="text-muted-foreground">Client Satisfaction</div>
+                  <div className="text-muted-foreground">Satisfacción del Cliente</div>
                 </CardContent>
               </Card>
             </div>

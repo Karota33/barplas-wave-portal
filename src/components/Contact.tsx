@@ -16,24 +16,24 @@ import {
 const contactMethods = [
   {
     icon: Phone,
-    title: "Phone Support",
-    description: "Speak directly with our expert team",
+    title: "Soporte Telefónico",
+    description: "Habla directamente con nuestro equipo experto",
     contact: "+1 (555) 123-4567",
-    availability: "Mon-Fri, 9AM-6PM EST"
+    availability: "Lun-Vie, 9AM-6PM EST"
   },
   {
     icon: Mail,
-    title: "Email Support",
-    description: "Get detailed assistance via email",
-    contact: "support@barplas.com",
-    availability: "24/7 Response"
+    title: "Soporte por Email",
+    description: "Obtén asistencia detallada por correo electrónico",
+    contact: "soporte@barplas.com",
+    availability: "Respuesta 24/7"
   },
   {
     icon: MessageSquare,
-    title: "Live Chat",
-    description: "Instant chat support available",
-    contact: "Available on portal",
-    availability: "Mon-Fri, 8AM-8PM EST"
+    title: "Chat en Vivo",
+    description: "Soporte de chat instantáneo disponible",
+    contact: "Disponible en el portal",
+    availability: "Lun-Vie, 8AM-8PM EST"
   }
 ];
 
@@ -44,17 +44,17 @@ export const Contact = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 text-sm text-primary mb-6">
             <Headphones className="w-4 h-4" />
-            Get in Touch
+            Contáctanos
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Ready to Transform Your{" "}
+            ¿Listo para Transformar tu{" "}
             <span className="bg-gradient-accent bg-clip-text text-transparent">
-              Business?
+              Negocio?
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Contact our team today to learn how Barplas Portal can streamline 
-            your operations and accelerate your growth.
+            Contacta a nuestro equipo hoy para conocer cómo Portal Barplas puede optimizar 
+            tus operaciones y acelerar tu crecimiento.
           </p>
         </div>
 
@@ -88,7 +88,7 @@ export const Contact = () => {
             <CardHeader>
               <CardTitle className="text-2xl text-foreground flex items-center">
                 <Send className="w-6 h-6 mr-3 text-accent" />
-                Send us a Message
+                Envíanos un Mensaje
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -96,49 +96,49 @@ export const Contact = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <label className="text-sm font-medium text-foreground mb-2 block">
-                      First Name
+                      Nombre
                     </label>
-                    <Input placeholder="John" className="border-border/50 bg-background/50" />
+                    <Input placeholder="Juan" className="border-border/50 bg-background/50" />
                   </div>
                   <div>
                     <label className="text-sm font-medium text-foreground mb-2 block">
-                      Last Name
+                      Apellido
                     </label>
-                    <Input placeholder="Doe" className="border-border/50 bg-background/50" />
+                    <Input placeholder="Pérez" className="border-border/50 bg-background/50" />
                   </div>
                 </div>
                 
                 <div>
                   <label className="text-sm font-medium text-foreground mb-2 block">
-                    Email Address
+                    Correo Electrónico
                   </label>
                   <Input 
                     type="email" 
-                    placeholder="john.doe@company.com" 
+                    placeholder="juan.perez@empresa.com" 
                     className="border-border/50 bg-background/50" 
                   />
                 </div>
                 
                 <div>
                   <label className="text-sm font-medium text-foreground mb-2 block">
-                    Company
+                    Empresa
                   </label>
-                  <Input placeholder="Your Company Name" className="border-border/50 bg-background/50" />
+                  <Input placeholder="Nombre de tu Empresa" className="border-border/50 bg-background/50" />
                 </div>
                 
                 <div>
                   <label className="text-sm font-medium text-foreground mb-2 block">
-                    Message
+                    Mensaje
                   </label>
                   <Textarea 
-                    placeholder="Tell us about your project and how we can help..."
+                    placeholder="Cuéntanos sobre tu proyecto y cómo podemos ayudarte..."
                     rows={5}
                     className="border-border/50 bg-background/50 resize-none"
                   />
                 </div>
                 
                 <Button variant="hero" size="lg" className="w-full">
-                  Send Message
+                  Enviar Mensaje
                   <Send className="w-5 h-5 ml-2" />
                 </Button>
               </form>
@@ -151,18 +151,18 @@ export const Contact = () => {
               <CardHeader>
                 <CardTitle className="text-xl text-foreground flex items-center">
                   <MapPin className="w-6 h-6 mr-3 text-accent" />
-                  Our Location
+                  Nuestra Ubicación
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Visit our headquarters for in-person consultations and meetings.
+                  Visita nuestra sede central para consultas y reuniones presenciales.
                 </p>
                 <div className="space-y-2 text-foreground">
-                  <p className="font-semibold">Barplas Corporate Headquarters</p>
-                  <p>123 Business District Avenue</p>
-                  <p>Suite 500, Tech Tower</p>
-                  <p>New York, NY 10001</p>
+                  <p className="font-semibold">Sede Central Barplas</p>
+                  <p>123 Avenida Distrito Empresarial</p>
+                  <p>Suite 500, Torre Tech</p>
+                  <p>Nueva York, NY 10001</p>
                 </div>
               </CardContent>
             </Card>
@@ -171,34 +171,34 @@ export const Contact = () => {
               <CardHeader>
                 <CardTitle className="text-xl flex items-center">
                   <Users className="w-6 h-6 mr-3" />
-                  Join Our Team
+                  Únete a Nuestro Equipo
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-primary-foreground/90 mb-4">
-                  We're always looking for talented individuals to join our growing team.
+                  Siempre estamos buscando personas talentosas para unirse a nuestro equipo en crecimiento.
                 </p>
                 <Button variant="outline" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-                  View Open Positions
+                  Ver Posiciones Abiertas
                 </Button>
               </CardContent>
             </Card>
 
             <Card className="shadow-card bg-card/80 backdrop-blur-sm border-border/50">
               <CardContent className="p-6">
-                <h3 className="text-lg font-semibold text-foreground mb-4">Business Hours</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-4">Horarios de Atención</h3>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Monday - Friday:</span>
+                    <span className="text-muted-foreground">Lunes - Viernes:</span>
                     <span className="text-foreground">9:00 AM - 6:00 PM EST</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Saturday:</span>
+                    <span className="text-muted-foreground">Sábado:</span>
                     <span className="text-foreground">10:00 AM - 4:00 PM EST</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Sunday:</span>
-                    <span className="text-foreground">Closed</span>
+                    <span className="text-muted-foreground">Domingo:</span>
+                    <span className="text-foreground">Cerrado</span>
                   </div>
                 </div>
               </CardContent>

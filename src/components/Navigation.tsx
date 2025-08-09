@@ -4,10 +4,10 @@ import { Menu, X, Building2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { label: "Home", href: "#home" },
-  { label: "Services", href: "#services" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" }
+  { label: "Inicio", href: "#home" },
+  { label: "Servicios", href: "#services" },
+  { label: "Nosotros", href: "#about" },
+  { label: "Contacto", href: "#contact" }
 ];
 
 export const Navigation = () => {
@@ -55,8 +55,8 @@ export const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost">Sign In</Button>
-            <Button variant="professional">Get Started</Button>
+            <Button variant="ghost">Iniciar Sesión</Button>
+            <Button variant="professional">Comenzar</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -89,10 +89,10 @@ export const Navigation = () => {
               ))}
               <div className="pt-4 space-y-3 border-t border-border/50">
                 <Button variant="ghost" className="w-full justify-start">
-                  Sign In
+                  Iniciar Sesión
                 </Button>
                 <Button variant="professional" className="w-full">
-                  Get Started
+                  Comenzar
                 </Button>
               </div>
             </div>

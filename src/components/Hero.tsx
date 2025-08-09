@@ -27,33 +27,32 @@ export const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 text-sm text-primary mb-8 backdrop-blur-sm">
             <Shield className="w-4 h-4" />
-            Trusted Business Solutions
+            Soluciones Empresariales de Confianza
           </div>
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Welcome to{" "}
+            Bienvenido al{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Barplas
-            </span>{" "}
-            Portal
+              Portal Barplas
+            </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Your comprehensive business portal for streamlined operations, 
-            enhanced productivity, and seamless collaboration.
+            Tu portal empresarial integral para operaciones optimizadas, 
+            mayor productividad y colaboración fluida.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-              Get Started
+              Comenzar
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-6 backdrop-blur-sm bg-background/50 border-primary/30">
               <Play className="w-5 h-5 mr-2" />
-              Watch Demo
+              Ver Demo
             </Button>
           </div>
 
@@ -63,24 +62,24 @@ export const Hero = () => {
               <div className="w-12 h-12 bg-gradient-accent rounded-xl flex items-center justify-center mb-4">
                 <Zap className="w-6 h-6 text-accent-foreground" />
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Lightning Fast</h3>
-              <p className="text-muted-foreground text-sm">Optimized performance for rapid business operations</p>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Súper Rápido</h3>
+              <p className="text-muted-foreground text-sm">Rendimiento optimizado para operaciones empresariales ágiles</p>
             </div>
 
             <div className="flex flex-col items-center text-center p-6 rounded-2xl bg-card/50 backdrop-blur-sm border border-border/50 shadow-card hover:shadow-elegant transition-smooth">
               <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center mb-4">
                 <Shield className="w-6 h-6 text-primary-foreground" />
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Secure & Reliable</h3>
-              <p className="text-muted-foreground text-sm">Enterprise-grade security for your business data</p>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Seguro y Confiable</h3>
+              <p className="text-muted-foreground text-sm">Seguridad de nivel empresarial para tus datos de negocio</p>
             </div>
 
             <div className="flex flex-col items-center text-center p-6 rounded-2xl bg-card/50 backdrop-blur-sm border border-border/50 shadow-card hover:shadow-elegant transition-smooth">
               <div className="w-12 h-12 bg-gradient-accent rounded-xl flex items-center justify-center mb-4">
                 <Users className="w-6 h-6 text-accent-foreground" />
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Team Collaboration</h3>
-              <p className="text-muted-foreground text-sm">Seamless workflows for enhanced team productivity</p>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Colaboración en Equipo</h3>
+              <p className="text-muted-foreground text-sm">Flujos de trabajo fluidos para mayor productividad del equipo</p>
             </div>
           </div>
         </div>
